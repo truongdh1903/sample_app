@@ -26,8 +26,13 @@
 !/tmp/storage/.keep
 
 /public/assets
+/public/packs/
+
+node_modules
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 /config/credentials.yml.enc
 /config/database.yml
+.framgia-ci-reports/
+.framgia-ci-result.temp.yml

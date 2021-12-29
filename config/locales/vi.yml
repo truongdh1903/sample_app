@@ -1,0 +1,30 @@
+vi:
+  app:
+    title: "Phần mềm ví dụ Ruby on Rails"
+  static_page:
+    home:
+      title: "Trang chủ"
+      content_html: 'Đây là trang chủ của
+                <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+                phần mềm mẫu.'
+    about:
+      title: "Về chúng tôi"
+      content_html: '<a href="https://www.railstutorial.org/"><em>Hướng dẫn Ruby on Rails
+                      </em></a>, một phần của 
+                      <a href="https://www.learnenough.com/">Learn Enough</a> các hướng dẫn, là
+                      <a href="https://www.railstutorial.org/book">sách</a> và
+                      <a href="https://screencasts.railstutorial.org/">một số series</a>
+                      để dạy lập trình web
+                      <a href="https://rubyonrails.org/">Ruby on Rails</a>.
+                      Đây là chương trình ví dụ của khóa học.'
+    help:
+      title: "Trợ giúp"
+      content_html: 'Tìm sự trợ giúp về khóa học Ruby on Rails ở
+                      <a href="https://www.railstutorial.org/help">trang trợ giúp học Rails</a>.
+                      Để được trợ giúp về phần mềm mẫu này, xem
+                      <a href="https://www.railstutorial.org/book"><em>Sách hướng dẫn Ruby on Rails</em>
+                      </a>.'
+    contact:
+      title: "Liên lạc"
+      content_html: 'Liên hệ khóa học Ruby on Rails Tutorial về phần mềm mẫu ở
+                      <a href="https://www.railstutorial.org/contact">trang liên lạc</a>.'
