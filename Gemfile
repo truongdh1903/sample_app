@@ -3,7 +3,11 @@ git_source(:github){|repo| "https://github.com/#{repo}.git"}
 
 ruby "2.7.0"
 
+gem "config"
+
 gem "sassc-rails"
+
+gem "bootstrap-sass", "3.4.1"
 
 gem "rails", "~> 7.0.0"
 
@@ -22,8 +26,6 @@ gem "turbo-rails"
 gem "stimulus-rails"
 
 gem "jbuilder"
-
-gem "tzinfo-data", platforms: %i(mingw mswin x64_mingw jruby)
 
 gem "bootsnap", require: false
 
