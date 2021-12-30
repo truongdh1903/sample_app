@@ -5,6 +5,7 @@ vi:
   rails_tut: "Hướng dẫn Ruby on Rails"
   rails_book: "Sách dạy Ruby on Rails"
   rails_contact: "Trang liên lạc Ruby on Rails"
+  sign_up_now: "Đăng kí ngay!"
   static_page:
     home:
       title: "Trang chủ"

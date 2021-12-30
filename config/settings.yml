@@ -1,5 +1,6 @@
 rails_tutorial: "https://www.railstutorial.org/"
 rails: "https://rubyonrails.org/"
+rails_svg: "/images/rails.svg"
 michaelhartl: "https://www.michaelhartl.com/"
 rails_news: "https://news.railstutorial.org/"
 rails_contact: "https://www.railstutorial.org/#contact"
@@ -7,3 +8,6 @@ rails_help: "https://github.com/mhartl/sample_app_6th_ed/blob/main/HELP.md"
 rails_book: "https://www.railstutorial.org/book"
 learn_enough: "https://www.learnenough.com/"
 rails_screen_casts: "https://screencasts.railstutorial.org/"
+email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+email_max_len: 255
+passwd_min_len: 6
