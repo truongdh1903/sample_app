@@ -37,6 +37,7 @@ vi:
         name: "Tên"
         password: "Mật khẩu"
         password_confirmation: "Xác nhận mật khẩu"
+        remember_me: "Nhớ tôi"
   welcome_to_app: "Chào mừng đến với phần mềm ví dụ!"
   form_contain: "Biểu mẫu chứa"
   sign_up: "Đăng kí"
@@ -51,3 +52,4 @@ vi:
   new_user: "Người dùng mới?"
   invalid_info: "Sai email hoặc mật khẩu"
   login: "Đăng nhập"
+  remember_computer: "Nhớ tôi trong máy tính này"
