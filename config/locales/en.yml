@@ -31,3 +31,6 @@ en:
   welcome_to_app: "Welcome to the Sample App!"
   form_contain: "The form contains"
   user_not_found: "User not found"
+  sample_app: "Sample app"
+  new_user: "New user?"
+  invalid_info: "Invalid info"

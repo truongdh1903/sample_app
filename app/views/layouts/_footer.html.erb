@@ -9,7 +9,7 @@
     <ul>
       <li><%= link_to t("static_page.about.title"), static_pages_about_path %></li>
       <li><%= link_to t("static_page.contact.title"), static_pages_contact_path %></li>
-      <li><a href="https://news.railstutorial.org/"><%= t("layout.footer.news") %></a></li>
+      <li><%= link_to t("news"), Settings.rails_news %></li>
     </ul>
   </nav>
 </footer>

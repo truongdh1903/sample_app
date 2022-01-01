@@ -28,7 +28,7 @@ vi:
       login: "Đăng nhập"
     footer:
       content: "%{rails_tut} bởi %{michael_hartl}"
-      news: "Tin tức"
+  news: "Tin tức"
   confirmation: "Xác nhận"
   create_account: "Tạo tài khoản"
   activerecord:
@@ -42,3 +42,12 @@ vi:
   sign_up: "Đăng kí"
   error: "Lỗi"
   user_not_found: "Không tìm thấy người dùng"
+  sample_app: "Phân mềm ví dụ"
+  users: "Tất cả người dùng"
+  account: "Tài khoản"
+  profile: "Thông tin người dùng"
+  settings: "Thiết lập"
+  logout: "Đăng xuất"
+  new_user: "Người dùng mới?"
+  invalid_info: "Sai email hoặc mật khẩu"
+  login: "Đăng nhập"
