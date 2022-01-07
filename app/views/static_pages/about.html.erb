@@ -1,5 +1,11 @@
 <% provide(:title, t("static_page.about.title")) %>
 <h1><%= t("static_page.about.title") %></h1>
 <p>
-    <%= t("static_page.about.content_html") %>
+  <%= sanitize t("static_page.about.content",
+    rails_tut: link_to(t("rails_tut"), Settings.rails_tutorial),
+    learn_enough: link_to("learnenough", Settings.learn_enough),
+    book: link_to(t("rails_book"), Settings.rails_book),
+    screen_casts: link_to(t("screen_casts"), Settings.rails_screen_casts),
+    rails: link_to(t("rails"), Settings.rails))
+  %>
 </p>

@@ -1,31 +1,28 @@
 en:
   app:
     title: "Ruby on Rails Tutorial Sample App"
+  rails: "Ruby on Rails"
+  rails_tut: "Ruby on Rails tutorial"
+  rails_book: "Ruby on Rails book"
+  rails_contact: "Ruby on Rails contact page"
   static_page:
     home:
       title: "Home"
-      content_html: 'This is the home page for the
-                      <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
-                      sample application.'
+      content: "This is the home page for the %{link} sample application"
     about:
       title: "About"
-      content_html: 'The <a href="https://www.railstutorial.org/"><em>Ruby on Rails
-                      Tutorial</em></a>, part of the
-                      <a href="https://www.learnenough.com/">Learn Enough</a> family of
-                      tutorials, is a
-                      <a href="https://www.railstutorial.org/book">book</a> and
-                      <a href="https://screencasts.railstutorial.org/">screencast series</a>
-                      to teach web development with
-                      <a href="https://rubyonrails.org/">Ruby on Rails</a>.
-                      This is the sample app for the tutorial.'
+      content: "%{rails_tut} part of the %{learn_enough}, is a
+                %{book} and %{screen_casts}
+                to teach web development with %{rails}.
+                This is the sample app for the tutorial."
     help:
       title: "Help"
-      content_html: 'Get help on the Ruby on Rails Tutorial at the
-                      <a href="https://www.railstutorial.org/help">Rails Tutorial Help page</a>.
-                      To get help on this sample app, see the
-                      <a href="https://www.railstutorial.org/book"><em>Ruby on Rails Tutorial</em>
-                      book</a>.'
+      content: "Get help on the Ruby on Rails Tutorial at the %{rails_tut}.
+                To get help on this sample app, see the %{book}."
     contact:
       title: "Contact"
-      content_html: 'Contact the Ruby on Rails Tutorial about the sample app at the
-                      <a href="https://www.railstutorial.org/contact">contact page</a>.'
+      content: "Contact the Ruby on Rails Tutorial about the sample app at the
+                %{rails_contact}."
+  layout:
+    footer:
+      content: "The %{rails_tut} by %{michael_hartl}"

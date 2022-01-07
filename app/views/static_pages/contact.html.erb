@@ -1,5 +1,7 @@
 <% provide(:title, t("static_page.contact.title")) %>
 <h1><%= t("static_page.contact.title") %></h1>
 <p>
-    <%= t("static_page.contact.content_html") %>
+  <%= sanitize t("static_page.contact.content",
+    rails_contact: link_to(t("rails_contact"), Settings.rails_contact))
+  %>
 </p>
