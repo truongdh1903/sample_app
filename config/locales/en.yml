@@ -5,6 +5,7 @@ en:
   rails_tut: "Ruby on Rails tutorial"
   rails_book: "Ruby on Rails book"
   rails_contact: "Ruby on Rails contact page"
+  sign_up_now: "Sign up now!"
   static_page:
     home:
       title: "Home"
