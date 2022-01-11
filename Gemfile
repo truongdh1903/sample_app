@@ -11,6 +11,8 @@ gem "bcrypt", "3.1.13"
 
 gem "bootstrap-sass", "3.4.1"
 
+gem "jquery-rails"
+
 gem "rails", "~> 7.0.0"
 
 gem "rails-i18n"
