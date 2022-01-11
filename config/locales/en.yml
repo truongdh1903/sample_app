@@ -43,3 +43,12 @@ en:
   update_your_profile: "Update your profile"
   all_user: "All users"
   profile_updated: "Profile updated"
+  account_activated: "Account activated!"
+  account_activation: "Account activation"
+  invalid_activation_link: "Invalid activation link"
+  account_not_activated: "Account not activated. Check your email 
+                          for the activation link."
+  check_email: "Please check your email to activate your account."
+  password_reset: "Password reset"
+  click_link_to_activate: "Welcome to the Sample App! Click on the link below 
+                           to activate your account:"

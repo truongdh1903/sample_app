@@ -13,6 +13,8 @@ gem "bootstrap-sass", "3.4.1"
 
 gem "faker", "2.1.2"
 
+gem "figaro"
+
 gem "pagy"
 
 gem "pry-rails"
