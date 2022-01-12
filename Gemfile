@@ -11,6 +11,12 @@ gem "bcrypt", "3.1.13"
 
 gem "bootstrap-sass", "3.4.1"
 
+gem "faker", "2.1.2"
+
+gem "pagy"
+
+gem "pry-rails"
+
 gem "jquery-rails"
 
 gem "rails", "~> 7.0.0"

@@ -7,7 +7,7 @@ class User < ApplicationRecord
     format: {with: VALID_EMAIL_REGEX},
     uniqueness: true
   validates :password, presence: true,
-    length: {minimum: Settings.passwd_min_len}
+    length: {minimum: Settings.passwd_min_len}, allow_nil: true
   has_secure_password
 
   def downcase_email
@@ -17,7 +17,7 @@ class User < ApplicationRecord
   # Remembers a user in the database for use in persistent sessions.
   def remember
     self.remember_token = User.new_token
-    update_attribute :remember_digest, User.digest remember_token
+    update_attribute :remember_digest, User.digest(remember_token)
   end
 
   # Returns true if the given token matches the digest.
