@@ -3,6 +3,8 @@ git_source(:github){|repo| "https://github.com/#{repo}.git"}
 
 ruby "2.7.0"
 
+gem "active_storage_validations"
+
 gem "config"
 
 gem "sassc-rails"
@@ -24,6 +26,12 @@ gem "jquery-rails"
 gem "rails", "~> 7.0.0"
 
 gem "rails-i18n"
+
+gem "i18n-js"
+
+gem "image_processing"
+
+gem "mini_magick"
 
 gem "sprockets-rails"
 
