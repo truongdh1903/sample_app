@@ -64,3 +64,13 @@ vi:
   all_user: "Tất cả ngươi dùng"
   danger: "Đã có lỗi xảy ra"
   profile_updated: "Chỉnh sửa thông tin cá nhân thành công"
+  account_activated: "Kích hoạt tài khoản thành công!"
+  account_activation: "Kích hoạt tài khoản"
+  invalid_activation_link: "Đường dẫn kích hoạt không khả dụng"
+  account_not_activated: "Chưa kích hoạt tài khoản. Kiểm tra email của bạn."
+  check_email: "Hãy kiểm tra email để kích hoạt tài khoản của bạn."
+  hi: "Xin chào"
+  password_reset: "Lấy lại mật khẩu"
+  click_link_to_activate: "Chào mừng đến phần mèm mẫu! Click vào link dưới
+                           để kích hoạt tài khoản của bạn:"
+  activate: "Kích hoạt"
