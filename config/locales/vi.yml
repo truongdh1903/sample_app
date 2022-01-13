@@ -74,3 +74,15 @@ vi:
   click_link_to_activate: "Chào mừng đến phần mèm mẫu! Click vào link dưới
                            để kích hoạt tài khoản của bạn:"
   activate: "Kích hoạt"
+  forgot_password: "Quên mật khẩu"
+  reset_email_sent: "Đã gửi hướng dẫn đặt lại mật khẩu vào email"
+  email_not_found: "Địa chỉ email không hợp lệ"
+  password_reset: 
+    title: "Đặt lại mật khẩu"
+    link: "Bấm vào link dưới để đặt lại mật khẩu"
+    content: "Link sẽ hết hạn trong 2 giờ.Nếu bạn không muốn đổi
+              mật khẩu, haỹ lờ đi bức thư này."
+    expire: "Hết hạn đặt lại mật khẩu"
+    done: "Mật khẩu đã được đặt lại."
+  update_password: "Cập nhật mật khẩủ"
+  not_empty: "không thể để trống"
