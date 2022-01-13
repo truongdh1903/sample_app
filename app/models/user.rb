@@ -11,6 +11,7 @@ class User < ApplicationRecord
   validates :password, presence: true,
     length: {minimum: Settings.passwd_min_len}, allow_nil: true
   has_secure_password
+  has_many :microposts, dependent: :destroy
 
   def downcase_email
     email.downcase!
@@ -60,7 +61,7 @@ class User < ApplicationRecord
   end
 
   def password_reset_expired?
-    reset_sent_at < 2.hours.ago
+    reset_sent_at < Settings.expire_hour.hours.ago
   end
 
   def create_reset_digest
