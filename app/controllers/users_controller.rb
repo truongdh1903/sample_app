@@ -9,7 +9,9 @@ class UsersController < ApplicationController
                          items: Settings.item_per_page
   end
 
-  def show; end
+  def show
+    @pagy, @microposts = pagy @user.microposts, items: Settings.item_per_page
+  end
 
   def new
     @user = User.new

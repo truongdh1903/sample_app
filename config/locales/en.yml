@@ -66,3 +66,5 @@ en:
     done: "Password has been reset."
   update_password: "Update password"
   not_empty: "can't be empty"
+  user_not_valid: "User not valid"
+  micropost_created: "Micropost created!"

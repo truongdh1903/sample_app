@@ -86,3 +86,6 @@ vi:
     done: "Mật khẩu đã được đặt lại."
   update_password: "Cập nhật mật khẩủ"
   not_empty: "không thể để trống"
+  user_not_valid: "Người dùng không hợp lệ"
+  microposts: "Các bài viết"
+  micropost_created: "Tạo bài viết thành công!"
