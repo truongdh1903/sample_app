@@ -11,7 +11,7 @@ class UsersController < ApplicationController
 
   def show
     @pagy, @microposts = pagy @user.microposts.latest_posts,
-      items: Settings.item_per_page
+                              items: Settings.item_per_page
   end
 
   def new
@@ -49,6 +49,17 @@ class UsersController < ApplicationController
     redirect_to users_url
   end
 
+  def following
+    @title = t("following").capitalize
+    @users = @user.following.paginate page: params[:page]
+    render "show_follow"
+  end
+
+  def followers
+    @title = t("followers").capitalize
+    @users = @user.followers.paginate page: params[:page]
+    render "show_follow"
+  end
   private
   def user_params
     params.require(:user).permit :name, :email,

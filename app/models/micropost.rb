@@ -10,6 +10,6 @@ class Micropost < ApplicationRecord
                            size: {less_than: Settings.img_data_size.megabytes,
                                   message: I18n.t("img_size")}
   def display_image
-  image.variant resize_to_limit: Settings.img_size
+    image.variant resize_to_limit: Settings.img_size
   end
 end
