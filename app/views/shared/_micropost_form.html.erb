@@ -1,0 +1,9 @@
+<%= form_for(@micropost) do |f| %>
+  <div class="field">
+    <%= f.text_area :content, placeholder: t("compose_post") %>
+  </div>
+  <%= f.submit t("post"), class: "btn btn-primary" %>
+  <span class="image">
+    <%= f.file_field :image, accept: Settings.img_type %>
+  </span>
+<% end %>

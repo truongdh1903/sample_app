@@ -1,5 +1,6 @@
 class User < ApplicationRecord
   VALID_EMAIL_REGEX = Settings.email_regex
+  has_many :microposts, dependent: :destroy
   attr_accessor :remember_token, :activation_token, :reset_token
   before_save :downcase_email
   before_create :create_activation_digest
@@ -68,6 +69,11 @@ class User < ApplicationRecord
     update_columns reset_digest: User.digest(reset_token),
       reset_sent_at: Time.zone.now
   end
+
+  def feed
+    microposts
+  end
+
   private
   def create_activation_digest
     self.activation_token = User.new_token
