@@ -102,3 +102,7 @@ vi:
   post: "Đăng bài"
   login_successfully: "Đăng nhập thành công!"
   too_large_file: "File quá lớn"
+  following: "đang theo dõi"
+  followers: "người theo dõi"
+  follow: "Theo dõi"
+  unfollow: "Hủy theo dõi"
