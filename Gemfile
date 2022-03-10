@@ -3,6 +3,8 @@ git_source(:github){|repo| "https://github.com/#{repo}.git"}
 
 ruby "2.7.0"
 
+gem "active_model_serializers"
+
 gem "active_storage_validations"
 
 gem "config"
@@ -22,6 +24,8 @@ gem "pagy"
 gem "pry-rails"
 
 gem "jquery-rails"
+
+gem "jwt"
 
 gem "rails", "~> 7.0.0"
 
