@@ -85,3 +85,12 @@ en:
   followers: "followers"
   follow: "Follow"
   unfollow: "Unfollow"
+  not_found: "Sorry, %{record} not found"
+  invalid_credentials: "Invalid credentials"
+  invalid_token: "Invalid token"
+  missing_token: "Missing token"
+  unauthorized: "Unauthorized request"
+  account_created: "Account created successfully, please check your email to activate"
+  account_not_created: "Account could not be created"
+  expired_token: "Sorry, your token has expired. Please login to continue."
+
